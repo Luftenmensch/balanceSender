@@ -1,0 +1,17 @@
+{
+  "name": "balancesender",
+  "version": "1.0.0",
+  "description": "Just a simple scripts to manage balance",
+  "main": "collect.js",
+  "scripts": {
+    "collect": "node collect.js",
+    "disperse": "node disperse.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.3",
+    "ethers": "^5.6.9",
+    "prettier": "^2.7.1"
+  }
+}
